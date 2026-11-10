@@ -1,0 +1,15 @@
+{
+  "name": "mhtml2md",
+  "version": "1.0.0",
+  "description": "把浏览器保存的 .mhtml 网页转成 Markdown（重点支持腾讯元宝/千问等 AI 对话页）",
+  "main": "mhtml2md.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["mhtml", "markdown", "wireshark", "yuanbao"],
+  "license": "MIT",
+  "dependencies": {
+    "linkedom": "^0.18.15"
+  }
+}

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <functionList>
+        <parser
+            id="markdown"
+            displayName="Markdown Headings"
+            commentExpr=""
+        >
+            <function
+                mainExpr="^\h{0,3}#{1,6}\h+\K.*?(?=\h*#*\h*$)"
+            >
+                <functionName>
+                    <nameExpr expr=".*" />
+                </functionName>
+            </function>
+        </parser>
+    </functionList>
+</NotepadPlus>

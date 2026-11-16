@@ -1,0 +1,8 @@
+# Build artifacts
+*.o
+# *.dll
+# *.exe
+
+# The MSYS2 installers are not needed to build the plugin
+msys2-installer.exe
+msys2.sfx.exe
